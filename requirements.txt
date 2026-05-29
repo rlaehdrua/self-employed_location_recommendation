@@ -2,7 +2,7 @@ streamlit
 scikit-learn
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 os
 warnings
 unicodedata
