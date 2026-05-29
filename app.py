@@ -129,7 +129,7 @@ def download_files():
     for fname, fid in GDRIVE_FILES.items():
         out = os.path.join(DATA_DIR, fname)
         if not os.path.exists(out):
-            gdown.download(id=fid, output=out, quiet=True, fuzzy=True)
+            gdown.download(id=fid, output=out, quiet=True)
         paths[fname] = out
     return paths
 
